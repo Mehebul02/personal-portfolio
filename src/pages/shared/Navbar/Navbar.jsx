@@ -1,5 +1,5 @@
 import { Button, Navbar } from 'flowbite-react';
-import img_logo from '../../../assets/images/my-image/my.jpg'
+import img_logo from '../../../assets/images/logo/logo.png'
 import Container from '../Container/Container';
 const Navbars = () => {
     return (
@@ -8,8 +8,8 @@ const Navbars = () => {
         
         <Navbar  fluid rounded>
           <Navbar.Brand>
-            <img src={img_logo} className="rounded-full border-[2px]  border-gray-700 mr-3 w-16 h-16  " alt=" Logo" />
-            <span className="text-3xl text-gray-700  font-serif font-semibold self-center whitespace-nowrap   dark:text-white">Alif</span>
+            <img src={img_logo} className=" mr-3 w-32 " alt=" Logo" />
+            {/* <span className="text-3xl text-gray-700  font-serif font-semibold self-center whitespace-nowrap   dark:text-white">Alif</span> */}
           </Navbar.Brand>
           <div className=" ">
             {/* <Button>Get started</Button> */}
