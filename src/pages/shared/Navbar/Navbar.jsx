@@ -1,0 +1,33 @@
+import { Button, Navbar } from 'flowbite-react';
+import img_logo from '../../../assets/images/my-image/my.jpg'
+import Container from '../Container/Container';
+const Navbars = () => {
+    return (
+     
+            <div className=' border-b-2 border-[#ECF0F3] max-w-[2520px] mx-auto xl:px-10 p-2 md:px-10 sm:px-2 px-4'>
+        
+        <Navbar  fluid rounded>
+          <Navbar.Brand>
+            <img src={img_logo} className="rounded-full border-[2px]  border-gray-700 mr-3 w-16 h-16  " alt=" Logo" />
+            <span className="text-3xl text-gray-700  font-serif font-semibold self-center whitespace-nowrap   dark:text-white">Alif</span>
+          </Navbar.Brand>
+          <div className=" ">
+            {/* <Button>Get started</Button> */}
+            <Navbar.Toggle />
+          </div>
+          <Navbar.Collapse className='text-xl  font-montserrat'>
+            
+            <Navbar.Link href="#">Home</Navbar.Link>
+            <Navbar.Link href="#">About</Navbar.Link>
+            <Navbar.Link href="#">Contact</Navbar.Link>
+            <Navbar.Link href="#">Skills</Navbar.Link>
+           
+            
+          </Navbar.Collapse>
+        </Navbar>
+            </div>
+        
+    );
+};
+
+export default Navbars;
