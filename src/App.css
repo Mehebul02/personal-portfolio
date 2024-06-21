@@ -1,0 +1,18 @@
+:root {
+    --cursor-color: #ff0000; /* or any color you prefer */
+  }
+
+  body, html, .App {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: none;
+     /* ডিফল্ট মাউস কার্সর লুকান */
+  }
+  html {
+    --cursor-color: #333
+  }
+  
+  html.dark-mode {
+    --cursor-color: #fff
+  }
