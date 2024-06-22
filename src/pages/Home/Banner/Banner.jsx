@@ -5,22 +5,22 @@ const Banner = () => {
     return (
        
            
-            <div className=" bg-[#ECF0F3] mt-10">
+            <div className="  mt-10">
                
                <Container>
-               <div className="grid grid-cols-6">
+               <div className="grid grid-cols-1 lg:grid-cols-6">
                      {/* images  */}
-                 <div className="col-span-2 p-10 rounded-lg">
+                 <div className="lg:col-span-2 p-10 rounded-lg">
                     <div>
-                        <img className="bg-[#2a3c45]  p-2 border-[10px] border-white shadow-2xl rounded-tl-3xl rounded-br-3xl" src={banner} alt="" />
+                        <img className="bg-[#2a3c45]  p-2 border-[12px] border-white shadow-2xl rounded-tl-3xl rounded-br-3xl" src={banner} alt="" />
                         </div> 
                 </div>
                 {/* content  */}
-                <div className="col-span-4 p-20">
-                 <div className="space-y-4">
-                 <h5 className="text-xl font-poppins font-semibold">WELCOME TO MY WORLD</h5> 
-                   <h1 className="text-6xl text-[#25282C] font-montserrat font-bold">Hi, I’m <span className="text-[#FE135C]">Mehebul Alif</span> </h1><br />
-                   <span className="text-5xl font-montserrat font-semibold"> <span 
+                <div className="col-span-4 lg:p-20">
+                 <div className="space-y-2 lg:space-y-4 ">
+                 <h5 className="lg:text-xl font-poppins font-semibold">WELCOME TO MY WORLD</h5> 
+                   <h1 className="text-2xl lg:text-6xl text-[#25282C] font-montserrat font-bold">Hi, I’m <span className="text-[#FE135C]">Mehebul Alif</span> </h1> 
+                   <span className="lg:text-5xl font-montserrat font-semibold"> <span 
                    className="">
                    <span className="text-[#FE135C]">a</span>
                     <TypeAnimation
@@ -42,6 +42,9 @@ const Banner = () => {
   repeat={Infinity}
 />
                     </span> </span>
+
+                    <p className="text-md font-montserrat font-medium">I am a dedicated and passionate programmer specializing in web development. As a web Developer, I utilize my skills and knowledge in JavaScript, React JS, Firebase, HTML, and CSS to design and develop state-of-the-art, user-friendly, and optimized websites.
+                    In addition to my front-end expertise, I have back-end development skills, including experience with payment gateways like Stripe, Node.js, and MongoDB.</p>
                  </div>
                 </div>
                 </div>

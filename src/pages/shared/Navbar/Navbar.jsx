@@ -4,9 +4,9 @@ import Container from '../Container/Container';
 const Navbars = () => {
     return (
      
-            <div className=' border-b-2 border-[#ECF0F3] max-w-[2520px] mx-auto xl:px-10 p-2 md:px-10 sm:px-2 px-4'>
+            <div className=' border-b-[2px]   max-w-[2520px] mx-auto xl:px-10 p-2 md:px-10 sm:px-2 px-4'>
         
-        <Navbar  fluid rounded>
+        <Navbar className='bg-[#ECF0F3]' fluid rounded>
           <Navbar.Brand>
             <img src={img_logo} className=" mr-3 w-32 " alt=" Logo" />
             {/* <span className="text-3xl text-gray-700  font-serif font-semibold self-center whitespace-nowrap   dark:text-white">Alif</span> */}
