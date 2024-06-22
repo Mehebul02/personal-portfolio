@@ -1,6 +1,8 @@
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import Container from "../../shared/Container/Container";
 import shap_bg from '../../../assets/images/shap_bg/shap_bg.png'
+import { FaDownload } from "react-icons/fa";
+import ImageSlide from "./ImageSlide";
 const About = () => {
     return (
       <div className="">
@@ -8,15 +10,18 @@ const About = () => {
           <img className="w-full shadow-sm" src={shap_bg} alt="" />
         </div>
           <Container>
-            <div className="grid grid-cols-1 lg:grid-cols-8 ">
+            <div className="grid grid-cols-1 lg:grid-cols-8 lg:mt-16">
                 {/* image  */}
-           <div className="col-span-6">
+           <div className="col-span-5 space-y-5">
            <SectionTitle subHeading='VISIT MY PORTFOLIO & HIRE ME' heading='About Me'/>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, corporis! A quas dolor vero perferendis! Provident aliquid, consequatur odio cum perferendis in et vero at rem ut accusamus amet natus architecto consectetur vitae sint non? Minus tempore, iste provident suscipit quo, illo, exercitationem dolores cum enim vitae ab minima eius officia velit culpa deserunt! Fuga ea aliquam rem dicta distinctio, corrupti magni expedita cum soluta id praesentium beatae eligendi et voluptatum facere vel recusandae nostrum nesciunt iure. Earum, quasi. Id dolorum molestias placeat dignissimos expedita aspernatur vero rerum suscipit, porro sunt, officia velit explicabo eius corporis, esse in totam. Qui, accusamus, temporibus perspiciatis placeat quaerat eum in aut quia quasi incidunt laborum. Reiciendis quidem vitae a harum doloribus eos quam!
+           <p className="text-md text-black font-montserrat font-medium w-[720px]">"I'm Mehebul Alif, a graduate with a Diploma in Computer Technology from Jhenaidah Polytechnic Institute. My passion lies in web development, where I specialize in Front End technologies such as JavaScript, ReactJS, Firebase, HTML, and CSS. Additionally, I have experience in back-end development using Node.js, MongoDB, and Next.js, and I am adept at integrating payment gateways."</p>
+          <button className="flex justify-center items-center gap-3 text-xl text-[#2A3C45] border-2 bg-gradient-to-r from-gray-300 to-slate-400 shadow-lg   font-montserrat font-bold py-2 px-4 rounded transition duration-300 transform hover:-translate-y-1">
+      Download My Resume <FaDownload/>
+    </button>
            </div>
                 {/* about  */}
-           <div className="col-span-2">
-           image
+           <div className="col-span-3">
+          <ImageSlide/>
            </div>
         </div>
         </Container>
