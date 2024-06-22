@@ -5,9 +5,10 @@ import html1 from "../../../assets/images/logo/html (1).svg";
 import { TypeAnimation } from "react-type-animation";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
+import { Link } from "react-router-dom";
 const Banner = () => {
   return (
-    <div className="  lg:mt-20  "style={{ backgroundImage: `url(${html1})`}}>
+    <div className=" mt-20 lg:mt-20  "style={{ backgroundImage: `url(${html1})`}}>
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-6">
           {/* images  */}
@@ -54,7 +55,7 @@ const Banner = () => {
                   </span>{" "}
                 </h1>
               </div>
-              <p className="text-md font-montserrat font-medium">
+              <p className="text-md font-montserrat font-medium leading-loose">
                 I am a dedicated and passionate programmer specializing in web
                 development. As a web Developer, I utilize my skills and
                 knowledge in JavaScript, React JS, Firebase, HTML, and CSS to
@@ -70,11 +71,15 @@ const Banner = () => {
       <h1 className="text-xl uppercase underline font-montserrat font-semibold ">Find With me</h1>
       <div className="flex flex-wrap space-x-8" >
         {/* Facebook  */}
-        <h1 className="bg-gray-700 p-2 title rounded-tl-lg rounded-br-lg hover:bg-gradient-to-t from-rose-500 to-red-500 hover:border-b-2 border-white">
+      <a href='https://web.facebook.com/alif.islam.212?_rdc=1&_rdr' target="_blank">
+      <h1 className="bg-gray-700 p-2 title rounded-tl-lg rounded-br-lg hover:bg-gradient-to-t from-rose-500 to-red-500 hover:border-b-2 border-white">
       <FaFacebook className="text-white text-3xl" />
     </h1>
+      </a>
         {/* linkedin  */}
-        <h1 className="bg-gray-700 p-2 rounded-tl-lg rounded-br-lg hover:bg-gradient-to-t from-rose-500 to-red-500"><FaLinkedin className="text-white text-3xl"/></h1>
+       <a href='https://www.linkedin.com/in/mehebul-alif-9b865025b' target="_blank">
+       <h1 className="bg-gray-700 p-2 rounded-tl-lg rounded-br-lg hover:bg-gradient-to-t from-rose-500 to-red-500"><FaLinkedin  className="text-white text-3xl"/> </h1>
+       </a>
         {/* Twitter  */}
         <h1 className="bg-gray-700 p-2 rounded-tl-lg rounded-br-lg hover:bg-gradient-to-t from-rose-500 to-red-500"><BsTwitterX className="text-white text-3xl"/></h1>
       </div>
