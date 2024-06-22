@@ -1,13 +1,13 @@
 import Container from "../../shared/Container/Container";
 import banner from "../../../assets/images/banner/banner_2.png";
-import html from "../../../assets/images/logo/html (1).svg";
+import html1 from "../../../assets/images/logo/html (1).svg";
 
 import { TypeAnimation } from "react-type-animation";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 const Banner = () => {
   return (
-    <div className="  lg:mt-10 "style={{ backgroundImage: `url(${html})`}}>
+    <div className="  lg:mt-20  "style={{ backgroundImage: `url(${html1})`}}>
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-6">
           {/* images  */}

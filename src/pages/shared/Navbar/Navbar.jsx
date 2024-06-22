@@ -7,9 +7,10 @@ import NavItem from './NavIbarItem';
 const Navbars = () => {
     return (
      
-            <div className=' border-b-[2px]   max-w-[2520px] mx-auto xl:px-10 p-2 md:px-10 sm:px-2 px-4'>
-        
-        <Navbar className='bg-[#ECF0F3] ' fluid rounded>
+            <div className=''>
+        {/* bg-[#ECF0F3] */}
+     
+       <Navbar className='bg-gradient-to-r from-zinc-300 to-slate-400 fixed top-0  w-full  z-50 border-b-[2px] ' fluid rounded>
           <Navbar.Brand>
             <img src={img_logo} className=" mr-3 w-32 " alt=" Logo" />
             {/* <span className="text-3xl text-gray-700  font-serif font-semibold self-center whitespace-nowrap   dark:text-white">Alif</span> */}
@@ -28,6 +29,7 @@ const Navbars = () => {
             
           </Navbar.Collapse>
         </Navbar>
+      
      
             </div>
         

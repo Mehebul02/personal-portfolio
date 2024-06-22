@@ -6,9 +6,11 @@ import Navbar from '../pages/shared/Navbar/Navbar';
 
 const Roots = () => {
     return (
-        <div>
+        <div className='bg-gradient-to-t from-zinc-200 to-slate-400'>
             <Navbar/>
-            <Outlet/>
+           <div className=' min-h-screen'>
+           <Outlet/>
+           </div>
         </div>
     );
 };

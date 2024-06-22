@@ -9,7 +9,7 @@ const NavItem = ({label,address}) => {
       to={address}
       end
       className={({ isActive }) =>
-        `flex items-center px-4 py-2 my-5  transition-colors duration-300 transform rounded-md   ${
+        `flex items-center mr-10 px-1 py-2 my-5  transition-colors duration-300 transform rounded-md   ${
           isActive ? '  text-[#FE135C]' : 'text-black'
         }`
       }
