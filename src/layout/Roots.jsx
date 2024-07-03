@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom';
 
 import Navbar from '../pages/shared/Navbar/Navbar';
 import Footer from '../pages/Home/footer/Footer';
+import '@fontsource/inter';
 
 const Roots = () => {
     return (

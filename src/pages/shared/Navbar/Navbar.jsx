@@ -12,8 +12,7 @@ const Navbars = () => {
      
        <Navbar className='bg-gradient-to-r from-zinc-300 to-slate-400 fixed top-0  w-full  z-50 border-b-[2px] ' fluid rounded>
           <Navbar.Brand>
-            <img src={img_logo} className=" mr-3 w-32 " alt=" Logo" />
-            {/* <span className="text-3xl text-gray-700  font-serif font-semibold self-center whitespace-nowrap   dark:text-white">Alif</span> */}
+            <img src={img_logo} className="  w-32 " alt=" Logo" />
           </Navbar.Brand>
           <div className=" ">
             {/* <Button>Get started</Button> */}
