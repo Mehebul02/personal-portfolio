@@ -7,6 +7,8 @@ import react from '../../../assets/images/skill/react.png'
 import firebase from '../../../assets/images/skill/firebase.png'
 import nodejs from '../../../assets/images/skill/nodeJs.png'
 import mongodb from '../../../assets/images/skill/Mongodb.png'
+import git from '../../../assets/images/skill/git.png'
+import figma from '../../../assets/images/skill/figma.png'
 const MySkills = () => {
   return (
     <Container>
@@ -23,7 +25,8 @@ const MySkills = () => {
 <div className="divider"></div>
         {/* Skill icon */}
         <div className="max-w-[800px] mx-auto">
-        <div className="grid grid-cols-4 gap-10 ">
+          {/* <h1 className="text-xl font-montserrat font-bold my-10 border-b-2 border-red-700 w-32">Front-End</h1> */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 ">
           {/* html  */}
         <div className="w-28 bg-slate-300 hover:bg-slate-200 p-4 rounded-xl shadow-2xl transform ">
   <img className="  hover:scale-105 transition duration-300 ease-in-out" src={html} alt="" />
@@ -48,6 +51,7 @@ const MySkills = () => {
         <div className="w-28 bg-slate-300 hover:bg-slate-200 p-4 rounded-xl shadow-2xl transform ">
   <img className="  hover:scale-105 transition duration-300 ease-in-out" src={firebase} alt="" />
 </div>
+
           {/* Node js  */}
         <div className="w-28 flex justify-center items-center bg-slate-300 hover:bg-slate-200 p-4 rounded-xl shadow-2xl transform ">
   <img className="  hover:scale-105 transition duration-300 ease-in-out" src={nodejs} alt="" />
@@ -55,6 +59,14 @@ const MySkills = () => {
           {/* mongodb */}
         <div className="w-28 flex justify-center items-center bg-slate-300 hover:bg-slate-200 p-4 rounded-xl shadow-2xl transform ">
   <img className="  hover:scale-105 transition duration-300 ease-in-out" src={mongodb} alt="" />
+</div>
+          {/* git */}
+        <div className="w-28 flex justify-center items-center bg-slate-300 hover:bg-slate-200 p-4 rounded-xl shadow-2xl transform ">
+  <img className="  hover:scale-105 transition duration-300 ease-in-out" src={git} alt="" />
+</div>
+          {/* figma */}
+        <div className="w-28 flex justify-center items-center bg-slate-300 hover:bg-slate-200 p-4 rounded-xl shadow-2xl transform ">
+  <img className="  hover:scale-105 transition duration-300 ease-in-out" src={figma} alt="" />
 </div>
       
 
