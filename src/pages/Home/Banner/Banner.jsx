@@ -71,7 +71,7 @@ const Banner = () => {
       Contact
     </button> */}
     {/* Resume button  */}
-     <div className="flex flex-row space-x-6">
+     <div className="flex flex-col lg:flex-row space-x-6">
      <ResumeButton/>
     <button  className="flex justify-center items-center gap-3 text-xl text-white bg-[#fe135de8]  hover:bg-gradient-to-r from-red-500 to-neutral-500 shadow-lg   font-montserrat font-bold py-2 px-4 rounded transition duration-300 transform hover:-translate-y-1">
       Contact Me <FaPhone />

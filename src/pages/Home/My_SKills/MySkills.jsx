@@ -1,5 +1,12 @@
 import Container from "../../shared/Container/Container";
-
+import html from '../../../assets/images/skill/html.png'
+import css from '../../../assets/images/skill/css.png'
+import tailwind from '../../../assets/images/skill/tailwind.png'
+import javaScript from '../../../assets/images/skill/javascript.png'
+import react from '../../../assets/images/skill/react.png'
+import firebase from '../../../assets/images/skill/firebase.png'
+import nodejs from '../../../assets/images/skill/nodeJs.png'
+import mongodb from '../../../assets/images/skill/Mongodb.png'
 const MySkills = () => {
   return (
     <Container>
@@ -13,8 +20,46 @@ const MySkills = () => {
             My Skill
           </h1>
         </div>
+<div className="divider"></div>
+        {/* Skill icon */}
+        <div className="max-w-[800px] mx-auto">
+        <div className="grid grid-cols-4 gap-10 ">
+          {/* html  */}
+        <div className="w-28 bg-slate-300 hover:bg-slate-200 p-4 rounded-xl shadow-2xl transform ">
+  <img className="  hover:scale-105 transition duration-300 ease-in-out" src={html} alt="" />
+</div>
+          {/* css  */}
+        <div className="w-28 bg-slate-300 hover:bg-slate-200 p-4 rounded-xl shadow-2xl transform ">
+  <img className="  hover:scale-105 transition duration-300 ease-in-out" src={css} alt="" />
+</div>
+          {/* tailwind  */}
+        <div className="w-28 flex justify-center items-center bg-slate-300 hover:bg-slate-200 p-4 rounded-xl shadow-2xl transform ">
+  <img className="  hover:scale-105 transition duration-300 ease-in-out" src={tailwind} alt="" />
+</div>
+          {/* javascript  */}
+        <div className="w-28 bg-slate-300 hover:bg-slate-200 p-4 rounded-xl shadow-2xl transform ">
+  <img className="  hover:scale-105 transition duration-300 ease-in-out" src={javaScript} alt="" />
+</div>
+          {/* react */}
+        <div className="w-28 bg-slate-300 hover:bg-slate-200 p-4 rounded-xl shadow-2xl transform ">
+  <img className="  hover:scale-105 transition duration-300 ease-in-out" src={react} alt="" />
+</div>
+          {/* firebase */}
+        <div className="w-28 bg-slate-300 hover:bg-slate-200 p-4 rounded-xl shadow-2xl transform ">
+  <img className="  hover:scale-105 transition duration-300 ease-in-out" src={firebase} alt="" />
+</div>
+          {/* Node js  */}
+        <div className="w-28 flex justify-center items-center bg-slate-300 hover:bg-slate-200 p-4 rounded-xl shadow-2xl transform ">
+  <img className="  hover:scale-105 transition duration-300 ease-in-out" src={nodejs} alt="" />
+</div>
+          {/* mongodb */}
+        <div className="w-28 flex justify-center items-center bg-slate-300 hover:bg-slate-200 p-4 rounded-xl shadow-2xl transform ">
+  <img className="  hover:scale-105 transition duration-300 ease-in-out" src={mongodb} alt="" />
+</div>
+      
 
-        {/* Progress ber */}
+        </div>
+        </div>
         <div >
           
         </div>
