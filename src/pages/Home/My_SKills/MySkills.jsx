@@ -21,8 +21,8 @@ const MySkills = () => {
           <h1 className="text-3xl lg:text-6xl text-[#25282C] font-montserrat font-bold  uppercase">
             My Skill
           </h1>
-        </div>
 <div className="divider"></div>
+        </div>
         {/* Skill icon */}
         <div className="max-w-[1000px] mx-auto">
           {/* <h1 className="text-xl font-montserrat font-bold my-10 border-b-2 border-red-700 w-32">Front-End</h1> */}
