@@ -4,6 +4,7 @@ import shap_bg from "../../../assets/images/shap_bg/shap_bg.png";
 
 import ImageSlide from "./ImageSlide";
 import ResumeButton from "../../shared/button/ResumeButton";
+import Education from "../../education/Education";
 const About = () => {
   return (
     <div className="">

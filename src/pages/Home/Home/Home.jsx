@@ -1,3 +1,4 @@
+import Contact from "../../Contact/Contact";
 import Education from "../../education/Education";
 import Projects from "../../projects/Projects";
 import About from "../About/About";
@@ -12,6 +13,7 @@ const Home = () => {
             <MySkills/>
             <Projects/>
             <Education/>
+            <Contact/>
         </div>
     );
 };
