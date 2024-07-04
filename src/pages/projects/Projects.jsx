@@ -41,7 +41,7 @@ const Projects = () => {
           <h1 className="text-[#FE135C] font-montserrat font-semibold  mb-2 lg:mb-4 ">
           VISIT MY PROJECTS & HIRE ME
           </h1>
-          <h1 className="text-3xl lg:text-6xl text-[#25282C] font-montserrat font-bold  uppercase">
+          <h1 className="text-3xl lg:text-5xl text-[#25282C] font-montserrat font-bold  uppercase">
           Projects
           </h1>
         <div className="divider"></div>
@@ -49,7 +49,7 @@ const Projects = () => {
         {/* card projects  */}
         <div className="container mx-auto p-4 lg:mt-10">
       {/* <h1 className="text-4xl font-bold mb-8 text-center">My Projects</h1> */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {projects.map((project) => (
           <ProjectsCard
             key={project.id}

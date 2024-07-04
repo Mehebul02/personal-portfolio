@@ -21,8 +21,8 @@ const Navbars = () => {
           <Navbar.Collapse className='text-xl  font-montserrat'>
           <NavItem label="Home" address="/"></NavItem>
           <NavItem label="About" address="/about"></NavItem>
-          <NavItem label="Contact" address="/contact"></NavItem>
           <NavItem label="Skills" address="/skills"></NavItem>
+          <NavItem label="Contact" address="/contact"></NavItem>
             {/* <button className='text-  text-[#FE135C]'>Say Hello</button> */}
            
             
