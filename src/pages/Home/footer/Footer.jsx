@@ -5,7 +5,7 @@ const Footer = () => {
     return (
        <div>
         <div className="divider shadow-2xl"></div>
-         <footer className="footer  text-base-content p-10 my-5 lg:my-14">
+         <footer className="footer  text-base-content p-10 my-5 lg:">
             
             <aside>
               <img className='w-32' src={logo} alt="" />
@@ -37,19 +37,30 @@ const Footer = () => {
              
             </nav>
             <nav>
-              <h6 className="footer-title">Company</h6>
-              <a className="link link-hover">About us</a>
-              <a className="link link-hover">Contact</a>
-              <a className="link link-hover">Jobs</a>
-              <a className="link link-hover">Press kit</a>
+            <h6 className="text-xl text-[#FE135C] font-montserrat font-semibold ">
+            RESOURCES</h6>
+            <a className="link link-hover font-montserrat font-medium">Authentication</a>
+            <a className="link link-hover font-montserrat font-medium">System Status</a>
+            <a className="link link-hover font-montserrat font-medium">Terms of Service</a>
+            <a className="link link-hover font-montserrat font-medium">Pricing</a>
+            <a className="link link-hover font-montserrat font-medium">Over Right</a>
             </nav>
             <nav>
-              <h6 className="footer-title">Legal</h6>
-              <a className="link link-hover">Terms of use</a>
-              <a className="link link-hover">Privacy policy</a>
-              <a className="link link-hover">Cookie policy</a>
+            <h6 className="text-xl text-[#FE135C] font-montserrat font-semibold ">
+            DEVELOPERS</h6>
+            <a className="link link-hover font-montserrat font-medium">Documentation</a>
+            <a className="link link-hover font-montserrat font-medium">Authentication</a>
+            <a className="link link-hover font-montserrat font-medium">API Reference</a>
+            <a className="link link-hover font-montserrat font-medium">Support</a>
+            <a className="link link-hover font-montserrat font-medium">Open Source</a>
             </nav>
+            
           </footer>
+          <footer className="footer footer-center bg-[#98A6BA] text-base-content p-4">
+  <aside>
+    <p className='text-lg text-black'>Copyright © ${new Date().getFullYear()} - All right reserved by <span className='text-[#FE135C] font-medium'>Mehebul Alif</span></p>
+  </aside>
+</footer>
        </div>
     );
 };
