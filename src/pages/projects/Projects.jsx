@@ -14,12 +14,22 @@ const Projects = () => {
         },
         {
             id: 2,
-            title: "Project One",
+            title: "Case Study",
             description: "This full-stack application project features a comprehensive dashboard designed for efficient management and user interaction. The dashboard serves as the central hub, providing administrators and users with essential tools and insights for streamlined operations.",
             imageUrl: "https://i.ibb.co/McrV59L/case-study.png",
-            projectLink: "https://pet-adoption-ed896.web.app",
+            projectLink: "https://case-study-b14df.web.app",
             technologies: ["React", "Firebase", "Tailwind CSS" ,"Node js","Mongodb"],
-            date: "2023-06-15",
+            date: "2023-05-11",
+      
+        },
+        {
+            id: 2,
+            title: "Artistic Vistas",
+            description: "In this case study, we examine the development and implementation of a dashboard for a full-stack application project aimed at streamlining pet adoption processes. The project required a centralized interface for administrators to manage pet listings, track adoption requests, handle user accounts, and analyze data.",
+            imageUrl: "https://i.ibb.co/qmCJTvz/aritise-vista.png",
+            projectLink: "https://artistic-vistas-auth.web.app/",
+            technologies: ["React", "Firebase", "Tailwind CSS" ,"Node js","Mongodb"],
+            date: "2023-04-17",
       
         }
         // Add more projects here
