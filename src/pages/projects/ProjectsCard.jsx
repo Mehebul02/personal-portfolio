@@ -7,8 +7,8 @@ const ProjectsCard = ({  title, description, imageUrl, projectLink, technologies
       setExpanded(!expanded);
     };
     return (
-        <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white transform transition duration-500 hover:scale-105">
-      <img className="w-full h-62 p-6 object-cover" src={imageUrl} alt={title} />
+        <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-slate-300 transform transition duration-500 hover:scale-105">
+      <img className="w-full h-62 p-6 object-cover rounded-2xl" src={imageUrl} alt={title} />
       <div className="px-6 py-4 space-y-2">
         <h3 className="font-bold text-xl font-montserrat text-gray-900">{title}</h3>
         <div className="flex flex-wrap">
