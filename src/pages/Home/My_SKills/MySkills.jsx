@@ -24,9 +24,9 @@ const MySkills = () => {
         </div>
 <div className="divider"></div>
         {/* Skill icon */}
-        <div className="max-w-[800px] mx-auto">
+        <div className="max-w-[1000px] mx-auto">
           {/* <h1 className="text-xl font-montserrat font-bold my-10 border-b-2 border-red-700 w-32">Front-End</h1> */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 ">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 ">
           {/* html  */}
         <div className="w-28 bg-slate-300 hover:bg-slate-200 p-4 rounded-xl shadow-2xl transform ">
   <img className="  hover:scale-105 transition duration-300 ease-in-out" src={html} alt="" />
