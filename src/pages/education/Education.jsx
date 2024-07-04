@@ -6,7 +6,7 @@ const Education = () => {
 <Container>
   
 <div>
-<div className="text-center md:w-4/12 mx-auto  ">
+<div className="text-center md:w-4/12 my-10 mx-auto  ">
           {/* <h1 className="text-[#FE135C] font-montserrat font-semibold  mb-2 lg:mb-4 ">
           VISIT MY PROJECTS & HIRE ME
           </h1> */}
@@ -29,10 +29,11 @@ const Education = () => {
           clipRule="evenodd" />
       </svg>
     </div>
-    <div className="timeline-start mb-10 md:text-end">
+    <div className="timeline-start mb-10 md:text-end bg-slate-300 hover:bg-white p-2 rounded-xl shadow-xl transform transition duration-500 hover:scale-105">
       <time className="font-mono italic">2020-2024</time>
-      <div className="text-2xl font-montserrat font-bold my-2">Diploma In Computer Technology</div>
-      <h1 className="text-md text-[#FE135C] font-medium font-montserrat ">Jhenaidah Polytechnic Institute , Jhenaidah</h1>
+      <div className="text-2xl font-montserrat font-bold my-2 px-3">Diploma In Computer Technology</div>
+      
+      <h1 className="text-md text-[#FE135C] font-medium font-montserrat p-2">Jhenaidah Polytechnic Institute , Jhenaidah</h1>
     </div>
     <hr />
   </li>
@@ -50,10 +51,10 @@ const Education = () => {
           clipRule="evenodd" />
       </svg>
     </div>
-    <div className="timeline-end mb-10">
+    <div className="timeline-end mb-10 bg-slate-300 hover:bg-white p-2 rounded-xl shadow-xl overflow-hidden transform transition duration-500 hover:scale-105">
       <time className="font-mono italic">2018-2020</time>
-      <div className="text-2xl font-montserrat font-bold my-2">S.S.C</div>
-      <h1 className="text-md text-[#FE135C] font-medium font-montserrat ">A S, K,MP High School , Bheramara Kushtia</h1>
+      <div className="text-2xl font-montserrat font-bold my-2 px-3">S.S.C</div>
+      <h1 className="text-md text-[#FE135C] font-medium font-montserrat p-2">A S, K,MP High School , Bheramara Kushtia</h1>
     </div>
     <hr />
   </li>
