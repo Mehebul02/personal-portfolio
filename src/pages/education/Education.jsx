@@ -6,7 +6,7 @@ const Education = () => {
 <Container>
   
 <div>
-<div className="text-center md:w-4/12 my-10 mx-auto  ">
+<div id="education" className="text-center md:w-4/12 my-10 mx-auto  ">
           {/* <h1 className="text-[#FE135C] font-montserrat font-semibold  mb-2 lg:mb-4 ">
           VISIT MY PROJECTS & HIRE ME
           </h1> */}

@@ -12,9 +12,10 @@ import figma from '../../../assets/images/skill/figma.png'
 const MySkills = () => {
   return (
     <Container>
-      <div className="my-24">
-        {/* title  */}
-        <div className="text-center md:w-4/12 my-5 mx-auto  ">
+      <div id="skills" className="my-24 ">
+     <div className="" >
+         {/* title  */}
+         <div className="text-center md:w-4/12 my-5 mx-auto mt-  ">
           <h1 className="text-[#FE135C] font-montserrat font-semibold  mb-2 lg:mb-4 ">
             VISIT MY SKILL & HIRE ME
           </h1>
@@ -72,9 +73,8 @@ const MySkills = () => {
 
         </div>
         </div>
-        <div >
-          
-        </div>
+     </div>
+        
       </div>
     </Container>
   );

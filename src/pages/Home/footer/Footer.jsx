@@ -3,7 +3,7 @@ import logo from '../../../assets/images/logo/logo.png'
 import { BsTwitterX } from 'react-icons/bs';
 const Footer = () => {
     return (
-       <div>
+       <div className='lg:mt-24'>
         <div className="divider shadow-2xl"></div>
          <footer className="footer  text-base-content p-10 my-5 lg:">
             

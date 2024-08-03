@@ -35,7 +35,7 @@ const Projects = () => {
         // Add more projects here
       ];
     return (
-        <div className="my-36">
+        <div id="project" className="my-36">
       
         <div className="text-center md:w-4/12  mx-auto  ">
           <h1 className="text-[#FE135C] font-montserrat font-semibold  mb-2 lg:mb-4 ">

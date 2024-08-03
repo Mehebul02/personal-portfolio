@@ -1,11 +1,11 @@
 
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavItem = ({label,address}) => {
- 
+
     return (
         <div>
-            <NavLink
+            <Link
       to={address}
       end
       className={({ isActive }) =>
@@ -17,7 +17,7 @@ const NavItem = ({label,address}) => {
    
 
       <span className=' text-[17px] font-poppins  hover:text-[#C10000]  font-medium'>{label}</span>
-    </NavLink>
+    </Link>
  
         </div>
     );

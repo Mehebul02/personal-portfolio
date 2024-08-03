@@ -8,12 +8,13 @@ import { BsTwitterX } from "react-icons/bs";
 import patran from '../../../assets/images/banner/patran banner.png'
 import developer from '../../../assets/images/banner/developer.png'
 import ResumeButton from "../../shared/button/ResumeButton";
+import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     // style={{ backgroundImage: `url(${developer})`,backgroundRepeat: 'no-repeat',  backgroundSize: 'cover', }}
     <div className=" mt-20 lg:mt-20  ">
       <Container>
-        <div className="grid grid-cols-1 lg:grid-cols-6 ">
+        <div id="home" className="grid grid-cols-1 lg:grid-cols-6 ">
           {/* images  */}
           <div className="lg:col-span-2 p-10 rounded-lg lg:mt-32">
             <div>
@@ -73,9 +74,11 @@ const Banner = () => {
     {/* Resume button  */}
      <div className="flex flex-col lg:flex-row justify-center items-center gap-4 space-x-6">
      <ResumeButton/>
-    <button  className="flex justify-center items-center gap-3 text-xl text-white bg-[#fe135de8]  hover:bg-gradient-to-r from-red-500 to-neutral-500 shadow-lg   font-montserrat font-bold py-2 px-4 rounded transition duration-300 transform hover:-translate-y-1">
+   <Link to='/contact'>
+   <button  className="flex justify-center items-center gap-3 text-xl text-white bg-[#fe135de8]  hover:bg-gradient-to-r from-red-500 to-neutral-500 shadow-lg   font-montserrat font-bold py-2 px-4 rounded transition duration-300 transform hover:-translate-y-1">
       Contact Me <FaPhone />
     </button>
+   </Link>
      </div>
  {/* <div className="space-y-3">
       <h1 className="text-xl uppercase underline font-montserrat font-semibold ">Find With me</h1>

@@ -5,7 +5,7 @@ import { BsTwitterX } from "react-icons/bs";
 const Contact = () => {
   return (
     <Container>
-      <div className=" lg:my-20 ">
+      <div id="contact" className=" lg:my-20 ">
         <h1 className="text-3xl lg:text-4xl text-[#25282C] font-montserrat font-bold  uppercase border-b-4 border-[#FE135C] inline">
           Contact With Me
         </h1>

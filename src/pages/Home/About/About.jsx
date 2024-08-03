@@ -7,7 +7,7 @@ import ResumeButton from "../../shared/button/ResumeButton";
 import Education from "../../education/Education";
 const About = () => {
   return (
-    <div className="">
+    <div id="about" className="" >
       <div className="w-full">
         <img className="w-full shadow-sm" src={shap_bg} alt="" />
       </div>
